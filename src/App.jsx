@@ -117,7 +117,7 @@ function renderSheet(text) {
 
 // ─────────────────────────────────────────────
 export default function App() {
-  const [mode, setMode] = useState("edit");
+  const [mode, setMode] = useState("perform");
   const [songs, setSongs] = useState([]);
   const [loaded, setLoaded] = useState(false);
   const [cur, setCur] = useState(0);
